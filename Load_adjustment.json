@@ -2,37 +2,60 @@
     "weekday_date_ranges": [
       {
         "name": "date_array_1",
-        "dates": ["2024-04-15", "2024-04-22", "2024-04-29", "2024-04-30", "2024-05-02", "2024-05-05"]
+        "ranges": [
+            {"start": "2024-04-15", "end": "2024-04-22"},
+            {"start": "2024-04-29", "end": "2024-04-30"},
+            {"start": "2024-05-02", "end": "2024-05-03"}
+          ]
       },
       {
         "name": "date_array_2",
-        "dates": ["2024-04-24", "2024-04-28"]
+        "ranges": [
+            {"start": "2024-04-24", "end": "2024-04-26"}
+          ]
       },
       {
         "name": "date_array_3",
-        "dates": ["2024-05-01"]
+        "ranges": [
+            {"start": "2024-05-01", "end": "2024-05-01"}
+          ]
       },
       {
         "name": "date_array_4",
-        "dates": ["2024-05-06", "2024-05-10"]
+        "ranges": [
+            {"start": "2024-05-06", "end": "2024-05-10"}
+          ]
       },
       {
         "name": "date_array_5",
-        "dates": ["2024-05-11", "2024-05-17"]
+        "ranges": [
+            {"start": "2024-05-11", "end": "2024-05-11"},
+            {"start": "2024-05-13", "end": "2024-05-17"}            
+          ]
       }
     ],
     "weekend_date_ranges": [
       {
-        "name": "date_array_3",
-        "dates": ["2024-04-27", "2024-04-28"]
+        "name": "date_array_6",
+        "ranges": [
+            {"start": "2024-04-27", "end": "2024-04-28"}
+          ]
       },
       {
         "name": "date_sunday",
-        "dates": ["2024-05-05", "2024-05-12", "2024-05-19", "2024-05-26"]
+        "ranges": [
+            {"start": "2024-05-05", "end": "2024-05-05"},
+            {"start": "2024-05-12", "end": "2024-05-12"},
+            {"start": "2024-05-18", "end": "2024-05-18"},
+            {"start": "2024-05-19", "end": "2024-05-19"}
+          ]
       },
       {
         "name": "date_array",
-        "dates": ["2024-04-15", "2024-04-22", "2024-04-29", "2024-05-04"]
+        "ranges": [
+            {"start": "2024-04-20", "end": "2024-04-21"},
+            {"start": "2024-05-04", "end": "2024-05-04"}
+          ]
       }
     ],
     "rules": [
@@ -63,7 +86,7 @@
         ]
       },
       {
-        "date_array": "date_array_3",
+        "date_array": "date_array_6",
         "adjustments": [
           {"range": [0, 35], "increment": 5},
           {"range": [36, 36], "increment": 10},
@@ -73,6 +96,19 @@
           {"range": [74, 74], "increment": 10},
           {"range": [75, 75], "increment": 10},
           {"range": [76, 95], "increment": 10}
+        ]
+      },
+      {
+        "date_array": "date_array_3",
+        "adjustments": [
+          {"range": [0, 35], "increment": 30},
+          {"range": [36, 36], "increment": 30},
+          {"range": [37, 37], "increment": 30},
+          {"range": [38, 72], "increment": 40},
+          {"range": [73, 73], "increment": 30},
+          {"range": [74, 74], "increment": 30},
+          {"range": [75, 75], "increment": 30},
+          {"range": [76, 95], "increment": 35}
         ]
       },
       {
@@ -86,6 +122,19 @@
           {"range": [74, 74], "increment": 26},
           {"range": [75, 75], "increment": 26},
           {"range": [76, 95], "increment": 24}
+        ]
+      },
+      {
+        "date_array": "date_array",
+        "adjustments": [
+          {"range": [0, 35], "increment": 30},
+          {"range": [36, 36], "increment": 40},
+          {"range": [37, 37], "increment": 45},
+          {"range": [38, 72], "increment": 60},
+          {"range": [73, 73], "increment": 50},
+          {"range": [74, 74], "increment": 45},
+          {"range": [75, 75], "increment": 35},
+          {"range": [76, 95], "increment": 30}
         ]
       },
       {
