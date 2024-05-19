@@ -17,8 +17,7 @@
       {
         "name": "date_array_3",
         "ranges": [
-            {"start": "2024-05-01", "end": "2024-05-01"},
-            {"start": "2024-05-20", "end": "2024-05-20"}
+            {"start": "2024-05-01", "end": "2024-05-01"}
           ]
       },
       {
@@ -38,7 +37,7 @@
     {
         "name": "date_array_7", 
         "ranges": [
-            {"start": "2024-06-20", "end": "2024-06-8"}          
+            {"start": "2024-05-20", "end": "2024-05-20"}          
           ]
       }
     ],
@@ -161,14 +160,14 @@
       {
         "date_array": "date_array_7",
         "adjustments": [
-          {"range": [0, 35], "increment": 45},
-          {"range": [36, 36], "increment": 42},
-          {"range": [37, 37], "increment": 42},
-          {"range": [38, 72], "increment": 40},
-          {"range": [73, 73], "increment": 35},
-          {"range": [74, 74], "increment": 35},
-          {"range": [75, 75], "increment": 35},
-          {"range": [76, 95], "increment": 30}
+          {"range": [0, 35], "increment": 40},
+          {"range": [36, 36], "increment": 35},
+          {"range": [37, 37], "increment": 35},
+          {"range": [38, 72], "increment": 30},
+          {"range": [73, 73], "increment": 30},
+          {"range": [74, 74], "increment": 30},
+          {"range": [75, 75], "increment": 30},
+          {"range": [76, 95], "increment": 35}
         ]
       },
       {
