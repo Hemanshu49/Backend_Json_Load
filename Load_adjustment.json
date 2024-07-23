@@ -233,15 +233,15 @@
       {
         "date_array": "date_array_9",
         "adjustments": [
-          {"range": [0, 20], "increment": 15},
-          {"range": [21, 35], "increment": 15},
-          {"range": [36, 36], "increment": 35},
-          {"range": [37, 37], "increment": 35},
-          {"range": [38, 72], "increment": 40},
-          {"range": [73, 73], "increment": 40},
-          {"range": [74, 74], "increment": 35},
-          {"range": [75, 75], "increment": 35},
-          {"range": [76, 95], "increment": 20}
+          {"range": [0, 20], "increment": 0},
+        {"range": [21, 35], "increment": 8},
+        {"range": [36, 36], "increment": 25},
+        {"range": [37, 37], "increment": 25},
+        {"range": [38, 72], "increment": 40},
+        {"range": [73, 73], "increment": 40},
+        {"range": [74, 74], "increment": 35},
+        {"range": [75, 75], "increment": 35},
+        {"range": [76, 95], "increment": 15}
         ]
       }
     ]
