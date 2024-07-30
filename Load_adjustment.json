@@ -67,6 +67,12 @@
               "ranges": [
                   {"start": "2024-07-24", "end": "2024-07-26"}          
                 ]
+            },
+            {
+              "name": "date_array_11", 
+              "ranges": [
+                  {"start": "2024-07-30", "end": "2024-07-30"}        
+                ]
             }
     ],
     "weekend_date_ranges": [
@@ -101,12 +107,6 @@
             {"start": "2024-05-04", "end": "2024-05-04"},
             {"start": "2024-06-01", "end": "2024-06-02"},
             {"start": "2024-06-08", "end": "2024-06-09"}
-          ]
-      },
-      {
-        "name": "date_array_10", 
-        "ranges": [
-            {"start": "2024-07-30", "end": "2024-07-30"}        
           ]
       }
     ],
@@ -270,7 +270,7 @@
       ]
       },
       {
-        "date_array": "date_array_10",
+        "date_array": "date_array_11",
         "adjustments": [
           {"range": [0, 20], "increment": 10},
           {"range": [21, 30], "increment": 20},
