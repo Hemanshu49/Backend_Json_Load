@@ -79,6 +79,12 @@
               "ranges": [
                   {"start": "2024-08-01", "end": "2024-08-02"}        
                 ]
+            },
+            {
+              "name": "date_array_16",
+              "ranges": [
+                {"start": "2024-10-08", "end": "2024-10-08"}
+              ]
             }
     ],
     "weekend_date_ranges": [
@@ -362,6 +368,15 @@
         {"range": [0, 30], "increment": 20},
         {"range": [31, 72], "increment": 0},
         {"range": [73, 96], "increment":10}
+        ]
+      },
+      {
+        "date_array": "date_array_16",
+        "adjustments": [
+        {"range": [0, 30], "increment": 4},
+        {"range": [31, 32], "increment": 5},
+        {"range": [33, 40], "increment":15},
+        {"range": [41, 96], "increment": 25}
         ]
       }
     ]
