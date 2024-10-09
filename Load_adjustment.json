@@ -373,10 +373,11 @@
       {
         "date_array": "date_array_16",
         "adjustments": [
-        {"range": [0, 30], "increment": 4},
+        {"range": [0, 25], "increment": 0},
+        {"range": [26, 30], "increment": 4},
         {"range": [31, 32], "increment": 5},
         {"range": [33, 40], "increment":15},
-        {"range": [41, 96], "increment": 25}
+        {"range": [41, 96], "increment": 31}
         ]
       }
     ]
