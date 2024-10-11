@@ -390,8 +390,8 @@
         "date_array": "date_array_17",
         "adjustments": [
         {"range": [0, 43], "increment": 0},
-        {"range": [44, 56], "increment": 5},
-        {"range": [57, 96], "increment": 10}
+        {"range": [44, 56], "increment": -5},
+        {"range": [57, 96], "increment": -10}
         ]
       }
     ]
