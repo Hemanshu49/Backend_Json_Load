@@ -406,8 +406,8 @@
         {"range": [0, 22], "increment": 0},
         {"range": [23, 35], "increment": 5},
         {"range": [36, 42], "increment": 8},
-        {"range": [43, 72], "increment": 15},
-        {"range": [73, 80], "increment": 18},
+        {"range": [43, 72], "increment": 20},
+        {"range": [73, 80], "increment": 25},
         {"range": [81, 96], "increment":4}
         ]
       }
