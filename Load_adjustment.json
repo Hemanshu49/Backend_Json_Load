@@ -403,12 +403,13 @@
       {
         "date_array": "date_array_18",
         "adjustments": [
-        {"range": [0, 22], "increment": 0},
-        {"range": [23, 35], "increment": 5},
-        {"range": [36, 42], "increment": 16},
+        {"range": [0, 19], "increment": 0},
+        {"range": [20, 35], "increment": 10},
+        {"range": [36, 42], "increment": 20},
         {"range": [43, 72], "increment": 22},
-        {"range": [73, 80], "increment": 25},
-        {"range": [81, 96], "increment":4}
+        {"range": [73, 77], "increment": 25},
+        {"range": [78, 80], "increment": 15},
+        {"range": [81, 96], "increment":5}
         ]
       }
     ]
