@@ -405,9 +405,10 @@
         "adjustments": [
         {"range": [0, 22], "increment": 0},
         {"range": [23, 35], "increment": 5},
-        {"range": [36, 42], "increment": 6},
-        {"range": [43, 80], "increment": 10},
-        {"range": [80, 96], "increment":4}
+        {"range": [36, 42], "increment": 8},
+        {"range": [43, 72], "increment": 15},
+        {"range": [73, 80], "increment": 18},
+        {"range": [81, 96], "increment":4}
         ]
       }
     ]
