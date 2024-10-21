@@ -71,7 +71,8 @@
             {
               "name": "date_array_11", 
               "ranges": [
-                  {"start": "2024-07-30", "end": "2024-07-30"}        
+                  {"start": "2024-07-30", "end": "2024-07-30"} ,
+                  {"start": "2024-10-22", "end": "2024-10-24"}       
                 ]
             },
             {
@@ -96,6 +97,12 @@
               "name":"date_array_19",
               "ranges": [
                 {"start": "2024-10-14", "end": "2024-10-14"}
+              ]
+            },
+            {
+              "name":"date_array_20",
+              "ranges": [
+                {"start": "2024-10-21", "end": "2024-10-21"}
               ]
             }
     ],
@@ -427,6 +434,24 @@
         {"range": [56, 70], "increment": 20},
         {"range": [71, 80], "increment": 10},
         {"range": [81, 96], "increment":2}
+        ]
+      },
+      {
+        "date_array": "date_array_20",
+        "adjustments": [
+          {"range": [0, 12], "increment": 0},
+          {"range": [13, 18], "increment": 4},
+          {"range": [19, 20], "increment": 5},
+          {"range": [21, 24], "increment": 12},
+          {"range": [25, 30], "increment": 15},
+          {"range": [31, 35], "increment": 18},
+          {"range": [36, 40], "increment": 20},
+          {"range": [41, 55], "increment": 23},
+          {"range": [56, 60], "increment": 15},
+          {"range": [61, 61], "increment": 25},
+          {"range": [62, 70], "increment": 15},
+          {"range": [56, 95], "increment": 18}
+          
         ]
       }
     ]
