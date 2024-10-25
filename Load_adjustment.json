@@ -167,6 +167,12 @@
         "ranges": [
             {"start": "2024-10-10", "end": "2024-10-10"}
           ]
+      },
+      {
+        "name": "date_array_21",
+        "ranges": [
+            {"start": "2024-10-26", "end": "2024-10-26"}
+          ]
       }
       
     ],
@@ -452,6 +458,35 @@
           {"range": [62, 70], "increment": 15},
           {"range": [56, 95], "increment": 18}
           
+        ]
+      },
+      {
+        "date_array": "date_array_21",
+        "adjustments": [
+          {"range": [0, 38], "increment": -13},
+          {"range": [39, 39] , "increment":-4},
+          {"range": [40, 43], "increment": -22},
+          {"range": [44, 45], "increment": -18},
+          {"range": [46, 47], "increment": -20},
+          {"range": [48, 49], "increment": -19},
+          {"range": [50, 51], "increment": -18},
+          {"range": [52, 53], "increment": -4},
+          {"range": [54, 56], "increment": -12},
+          {"range": [57, 58], "increment": -15},
+          {"range": [59, 60], "increment": -18},
+          {"range": [61, 63], "increment": -13},
+          {"range": [64, 65], "increment": -15},
+          {"range": [66, 67], "increment": -17},
+          {"range": [68, 69], "increment": -19},
+          {"range": [70, 70], "increment": -14},
+          {"range": [71, 72], "increment": -5},
+          {"range": [73, 74], "increment": 5},
+          {"range": [75, 81], "increment": 0},
+          {"range": [82, 85], "increment": -8},
+          {"range": [86, 86], "increment": -10},
+          {"range": [87, 89], "increment": -15},
+          {"range": [90, 91], "increment": -20},
+          {"range": [92, 95], "increment": -25}
         ]
       }
     ]
