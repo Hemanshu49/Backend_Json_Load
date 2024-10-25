@@ -173,6 +173,12 @@
         "ranges": [
             {"start": "2024-10-26", "end": "2024-10-26"}
           ]
+      },
+      {
+        "name": "date_array_22",
+        "ranges": [
+            {"start": "2024-10-27", "end": "2024-10-27"}
+          ]
       }
       
     ],
@@ -487,6 +493,15 @@
           {"range": [87, 89], "increment": -15},
           {"range": [90, 91], "increment": -20},
           {"range": [92, 95], "increment": -25}
+        ]
+      },
+      {
+        "date_array": "date_array_22",
+        "adjustments": [
+          {"range": [0, 36], "increment": -15},
+          {"range": [37,48 ], "increment": -17},
+          {"range": [49, 86], "increment": 0},
+          {"range": [87, 95], "increment":-16}
         ]
       }
     ]
