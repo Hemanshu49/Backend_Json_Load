@@ -118,6 +118,12 @@
               "ranges": [
                   {"start": "2024-12-09", "end": "2024-12-10"}
                 ]
+            },
+            {
+              "name":"date_array_25",
+              "ranges": [
+                {"start": "2024-12-12", "end": "2024-12-14"}
+              ]
             }
     ],
     "weekend_date_ranges": [
@@ -537,6 +543,14 @@
           {"range": [49,60], "increment": -15},
           {"range": [61, 86], "increment":-20},
           {"range": [87, 95], "increment":-22}
+        ]
+      },
+      {
+        "date_array": "date_array_25",
+        "adjustments": [
+          {"range": [0, 24], "increment": 0},
+          {"range": [25,75], "increment": 14},
+          {"range": [76,95], "increment": 16}
         ]
       }
     ]
