@@ -577,11 +577,11 @@
       {
         "date_array": "date_array_27",
         "adjustments": [
-          {"range": [0, 30], "increment": -35},
-          {"range": [31,60], "increment": -46},
-          {"range": [61,75], "increment": -50},
-          {"range": [76,90], "increment": -55},
-          {"range": [91,95], "increment": -40}
+          {"range": [0, 30], "increment": -40},
+          {"range": [31,40], "increment": -46},
+          {"range": [41,72], "increment": -55},
+          {"range": [73,90], "increment": -50},
+          {"range": [91,95], "increment": -54}
         ]
       }
     ]
