@@ -110,8 +110,7 @@
             {
               "name": "date_array_23",
               "ranges": [
-                  {"start": "2024-12-08", "end": "2024-12-08"},
-                  {"start": "2025-01-03", "end": "2025-01-04"}
+                  {"start": "2024-12-08", "end": "2024-12-08"}
                 ]
             },
             {
@@ -130,6 +129,12 @@
               "name":"date_array_26",
               "ranges": [
                 {"start": "2024-12-25", "end": "2024-12-25"}
+              ]
+            },
+            {
+              "name":"date_array_27",
+              "ranges": [
+                {"start": "2025-01-03", "end": "2025-01-04"}
               ]
             }
     ],
@@ -567,6 +572,16 @@
         "adjustments": [
           {"range": [0, 24], "increment": -16},
           {"range": [25,95], "increment": -20}
+        ]
+      },
+      {
+        "date_array": "date_array_27",
+        "adjustments": [
+          {"range": [0, 30], "increment": -35},
+          {"range": [31,60], "increment": -46},
+          {"range": [61,75], "increment": -50},
+          {"range": [76,90], "increment": -55},
+          {"range": [91,95], "increment": -40}
         ]
       }
     ]
