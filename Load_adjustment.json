@@ -137,6 +137,12 @@
               "ranges": [
                 {"start": "2025-01-03", "end": "2025-01-03"}
               ]
+            },
+            {
+              "name":"date_array_28",
+              "ranges": [
+                {"start": "2025-01-09", "end": "2025-01-09"}
+              ]
             }
     ],
     "weekend_date_ranges": [
@@ -584,6 +590,17 @@
           {"range": [41,72], "increment": -55},
           {"range": [73,90], "increment": -50},
           {"range": [91,95], "increment": -54}
+        ]
+      },
+      {
+        "date_array": "date_array_28",
+        "adjustments": [
+          {"range": [0, 12], "increment": -20},
+          {"range": [13,17], "increment": -15},
+          {"range": [18,41], "increment": 0},
+          {"range": [42,68], "increment": -10},
+          {"range": [69,88], "increment": 0},
+          {"range": [89,95], "increment": -10}
         ]
       }
     ]
