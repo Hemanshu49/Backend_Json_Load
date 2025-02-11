@@ -612,8 +612,8 @@
       {
         "date_array": "date_array_29",
         "adjustments": [
-          {"range": [0, 20], "increment": -20},
-          {"range": [21,25], "increment": -15},
+          {"range": [0, 20], "increment": -10},
+          {"range": [21,25], "increment": -8},
           {"range": [26,30], "increment": -5},
           {"range": [31,44], "increment": 0},
           {"range": [45,65], "increment": 5},
