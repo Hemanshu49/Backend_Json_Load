@@ -422,7 +422,7 @@
       {
         "date_array": "date_array_12",
         "adjustments": [
-          {"range": [0, 20], "increment": 5},
+          {"range": [0, 20], "increment": 11},
           {"range": [21, 35], "increment": 20},
           {"range": [36, 36], "increment": 20},
           {"range": [37, 37], "increment": 20},
