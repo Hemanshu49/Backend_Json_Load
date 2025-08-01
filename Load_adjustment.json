@@ -381,7 +381,7 @@
       {
         "date_array": "date_array_9",
         "adjustments": [
-        {"range": [0, 20], "increment": 0},
+        {"range": [0, 20], "increment": 5},
         {"range": [21, 35], "increment": 8},
         {"range": [36, 36], "increment": 25},
         {"range": [37, 37], "increment": 25},
