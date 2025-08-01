@@ -389,7 +389,7 @@
         {"range": [73, 73], "increment": 40},
         {"range": [74, 74], "increment": 35},
         {"range": [75, 75], "increment": 35},
-        {"range": [76, 95], "increment": 15}
+        {"range": [76, 95], "increment": 27}
       ]
       },
       {
