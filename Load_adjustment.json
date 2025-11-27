@@ -166,31 +166,31 @@
             },
             {
               "name": "Mahashivrati-25",
-              "range": [
+              "ranges": [
                 {"start": "2025-02-26", "end": "2025-02-26"}
               ]
             },
             {
               "name": "Holi-25",
-              "range": [
+              "ranges": [
                 {"start": "2025-03-14", "end": "2025-03-14"}
               ]
             },
             {
               "name": "AmbedkarJayanti-25",
-              "range": [
+              "ranges": [
                 {"start": "2025-04-14", "end": "2025-04-14"}
               ]
             },
             {
               "name": "BuddhaPurnima-25",
-              "range": [
+              "ranges": [
                 {"start": "2025-05-12", "end": "2025-05-12"}
               ]
             },
             {
               "name": "IndependenceDay-25",
-              "range": [
+              "ranges": [
                 {"start": "2025-08-15", "end": "2025-08-15"}
               ]
             }
