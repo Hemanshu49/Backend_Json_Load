@@ -864,6 +864,28 @@
         ]
       },
       {
+      "date_array": "date_04122025",
+      "day_type": "Normal Day",
+      "adjustments": [
+        {"range": [0, 8], "increment": -10},
+        {"range": [9,12], "increment": -8},
+        {"range": [13,27], "increment": -7},
+        {"range": [28,29], "increment": -8},
+        {"range": [30,31], "increment": -9},
+        {"range": [32,34], "increment": -11},
+        {"range": [35,37], "increment": -14},
+        {"range": [38,40], "increment": -15},
+        {"range": [41,43], "increment": -16},
+        {"range": [44,49], "increment": -17},
+        {"range": [50,54], "increment": -16},
+        {"range": [55,62], "increment": -15},
+        {"range": [63,72], "increment": -13},
+        {"range": [73,80], "increment": -11},
+        {"range": [81,88], "increment": -10},
+        {"range": [89,95], "increment": -9}
+      ]
+    },
+      {
       "date_array": "Mahashivrati-25",
       "day_type": "Normal Day",
       "adjustments": [
@@ -1208,28 +1230,8 @@
          ]
         }
       ]
-    },
-    {
-        "date_array": "date_04122025",
-        "adjustments": [
-          {"range": [0, 8], "increment": -10},
-          {"range": [9,12], "increment": -8},
-          {"range": [13,27], "increment": -7},
-          {"range": [28,29], "increment": -8},
-          {"range": [30,31], "increment": -9},
-          {"range": [32,34], "increment": -11},
-          {"range": [35,37], "increment": -14},
-          {"range": [38,40], "increment": -15},
-          {"range": [41,43], "increment": -16},
-          {"range": [44,49], "increment": -17},
-          {"range": [50,54], "increment": -16},
-          {"range": [55,62], "increment": -15},
-          {"range": [63,72], "increment": -13},
-          {"range": [73,80], "increment": -11},
-          {"range": [81,88], "increment": -10},
-          {"range": [89,95], "increment": -9}
-        ]
     }
+
     
 
 
