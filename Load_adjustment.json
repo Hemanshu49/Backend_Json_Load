@@ -921,13 +921,15 @@
       "adjustments": [
         {"range": [0, 20], "increment": -10},
         {"range": [21,26], "increment": -9},
-        {"range": [27,39], "increment": -8},
-        {"range": [40,45], "increment": -12},
-        {"range": [46,50], "increment": -13},
-        {"range": [51,63], "increment": -17},
-        {"range": [64,68], "increment": -14},
-        {"range": [69,71], "increment": -12},
-        {"range": [72,95], "increment": -10}
+        {"range": [27,36], "increment": -8},
+        {"range": [37,40], "increment": -10},
+        {"range": [41,43], "increment": -16},
+        {"range": [44,50], "increment": -19},
+        {"range": [51,58], "increment": -20},
+        {"range": [59,65], "increment": -17},
+        {"range": [66,70], "increment": -15},
+        {"range": [71,75], "increment": -14},
+        {"range": [76,95], "increment": -10}
       ]
     },
       {
