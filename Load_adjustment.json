@@ -283,6 +283,12 @@
               "ranges": [
                 {"start": "2025-12-05", "end": "2025-12-05"}
               ]
+            },
+            {
+              "name": "date_12122025",
+              "ranges": [
+                {"start": "2025-12-12", "end": "2025-12-12"}
+              ]
             }
 
     ],
@@ -907,6 +913,21 @@
         {"range": [71,71], "increment": -7},
         {"range": [72,72], "increment": -5},
         {"range": [73,95], "increment": 0}
+      ]
+    },
+    {
+      "date_array": "date_12122025",
+      "day_type": "Normal Day",
+      "adjustments": [
+        {"range": [0, 20], "increment": -10},
+        {"range": [21,26], "increment": -9},
+        {"range": [27,39], "increment": -8},
+        {"range": [40,45], "increment": -12},
+        {"range": [46,50], "increment": -13},
+        {"range": [51,63], "increment": -17},
+        {"range": [64,68], "increment": -14},
+        {"range": [69,71], "increment": -12},
+        {"range": [72,95], "increment": -10}
       ]
     },
       {
