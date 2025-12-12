@@ -273,6 +273,12 @@
               ]
             },
             {
+              "name":"IN12-12-25",
+              "ranges": [
+                {"start": "2025-12-12", "end": "2025-12-12"}
+              ]
+            },
+            {
               "name": "date_04122025",
               "ranges": [
                 {"start": "2025-12-04", "end": "2025-12-04"}
@@ -1274,6 +1280,22 @@
           449.0, 442.0, 438.0, 432.0, 425.0, 416.0
          ]
         }
+      ]
+    },
+    {
+      "date_array": "IN12-12-25",
+      "day_type": "Normal Day",
+      "prediction_method": "IntraDay",
+      "adjustments": [
+        {"range": [0, 35], "increment": -0},
+        {"range": [36,40], "increment": -9},
+        {"range": [41,43], "increment": -14},
+        {"range": [44,50], "increment": -18},
+        {"range": [51,58], "increment": -19},
+        {"range": [59,65], "increment": -15},
+        {"range": [66,70], "increment": -14},
+        {"range": [71,75], "increment": -12},
+        {"range": [76,95], "increment": -9}
       ]
     }
 
