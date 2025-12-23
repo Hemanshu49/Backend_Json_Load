@@ -289,6 +289,12 @@
               "ranges": [
                 {"start": "2025-12-12", "end": "2025-12-12"}
               ]
+            },
+            {
+              "name": "date_24122025",
+              "ranges": [
+                {"start": "2025-12-24", "end": "2025-12-24"}
+              ]
             }
 
     ],
@@ -930,6 +936,72 @@
         {"range": [66,70], "increment": -15},
         {"range": [71,75], "increment": -14},
         {"range": [76,95], "increment": -10}
+      ]
+    },
+    {
+      "date_array": "date_24122025",
+      "day_type": "Normal Day",
+      "adjustments": [
+        { "range": [0, 20], "increment": 0 },
+        { "range": [21, 24], "increment": 4 },
+        { "range": [25, 25], "increment": 7 },
+        { "range": [26, 26], "increment": 10 },
+        { "range": [27, 27], "increment": 13 },
+        { "range": [28, 28], "increment": 17 },
+        { "range": [29, 29], "increment": 18 },
+        { "range": [30, 30], "increment": 19 },
+        { "range": [31, 31], "increment": 20 },
+        { "range": [32, 32], "increment": 23 },
+        { "range": [33, 33], "increment": 25 },
+        { "range": [34, 34], "increment": 28 },
+        { "range": [35, 35], "increment": 29 },
+        { "range": [36, 36], "increment": 25 },
+        { "range": [37, 38], "increment": 24 },
+        { "range": [39, 39], "increment": 22 },
+        { "range": [40, 40], "increment": 23 },
+        { "range": [41, 42], "increment": 22 },
+        { "range": [43, 44], "increment": 25 },
+        { "range": [45, 45], "increment": 26 },
+        { "range": [46, 46], "increment": 25 },
+        { "range": [47, 47], "increment": 22 },
+        { "range": [48, 49], "increment": 19 },
+        { "range": [50, 50], "increment": 17 },
+        { "range": [51, 51], "increment": 15 },
+        { "range": [52, 53], "increment": 14 },
+        { "range": [54, 54], "increment": 10 },
+        { "range": [55, 55], "increment": 9 },
+        { "range": [56, 56], "increment": 13 },
+        { "range": [57, 60], "increment": 15 },
+        { "range": [61, 63], "increment": 14 },
+        { "range": [64, 64], "increment": 17 },
+        { "range": [65, 65], "increment": 20 },
+        { "range": [66, 66], "increment": 19 },
+        { "range": [67, 67], "increment": 20 },
+        { "range": [68, 68], "increment": 21 },
+        { "range": [69, 70], "increment": 19 },
+        { "range": [71, 71], "increment": 21 },
+        { "range": [72, 72], "increment": 23 },
+        { "range": [73, 73], "increment": 25 },
+        { "range": [74, 74], "increment": 27 },
+        { "range": [75, 75], "increment": 30 },
+        { "range": [76, 77], "increment": 28 },
+        { "range": [78, 78], "increment": 25 },
+        { "range": [79, 79], "increment": 20 },
+        { "range": [80, 80], "increment": 18 },
+        { "range": [81, 81], "increment": 17 },
+        { "range": [82, 82], "increment": 18 },
+        { "range": [83, 83], "increment": 14 },
+        { "range": [84, 84], "increment": 16 },
+        { "range": [85, 85], "increment": 15 },
+        { "range": [86, 86], "increment": 14 },
+        { "range": [87, 87], "increment": 13 },
+        { "range": [88, 88], "increment": 10 },
+        { "range": [89, 90], "increment": 7 },
+        { "range": [91, 91], "increment": 4 },
+        { "range": [92, 92], "increment": 0 },
+        { "range": [93, 93], "increment": 1 },
+        { "range": [94, 94], "increment": 0 },
+        { "range": [95, 95], "increment": -3 }
       ]
     },
       {
