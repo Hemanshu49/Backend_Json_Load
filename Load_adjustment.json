@@ -267,6 +267,12 @@
               ]
             },
             {
+              "name":"08-01-2026",
+              "ranges": [
+                {"start": "2026-01-08", "end": "2026-01-08"}
+              ]
+            },
+            {
               "name": "03-12-25",
               "ranges": [
                 {"start": "2025-12-03", "end": "2025-12-03"}
@@ -1044,6 +1050,27 @@
         {"range": [24, 24], "increment": -12},
         {"range": [25, 95], "increment": 0}
 
+      ]
+    },
+    {
+      "date_array":"08-01-2026",
+      "day_type": "Normal Day",
+      "adjustments": [
+        { "range": [0, 31], "increment": 0 },
+        { "range": [32, 32], "increment": -1 },
+        { "range": [33, 33], "increment": -2 },
+        { "range": [34, 34], "increment": -3 },
+        { "range": [35, 35], "increment": -5 },
+        { "range": [36, 36], "increment": -14 },
+        { "range": [37, 41], "increment": -15 },
+        { "range": [42, 58], "increment": -18 },
+        { "range": [59, 60], "increment": -16 },
+        { "range": [61, 66], "increment": -13 },
+        { "range": [67, 67], "increment": -14 },
+        { "range": [68, 72], "increment": -10 },
+        { "range": [73, 74], "increment": -8 },
+        { "range": [75, 78], "increment": -7 },
+        { "range": [79, 95], "increment": 0 }
       ]
     },
       {
